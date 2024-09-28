@@ -18,4 +18,11 @@
     return `Total : ${total}. \n`;
   }
 
-  console.log(total(213,2323,32123,123,213,2,211, +true, +false, +[]))
+  console.log(total(213,2323,32123,123,213,2,211, +true, +false, +[]));
+
+  // Arrow functions
+
+  const plusWithArrow = (num1 : number , num2 : number) : number => num1 + num2;
+
+  console.log(plusWithArrow(2,2));
+  console.log("\n");
