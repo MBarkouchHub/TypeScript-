@@ -16,4 +16,3 @@ console.log(total(213, 2323, 32123, 123, 213, 2, 211, +true, +false, +[]));
 const plusWithArrow = (num1, num2) => num1 + num2;
 console.log(plusWithArrow(2, 2));
 console.log("\n");
-//# sourceMappingURL=functions.js.map

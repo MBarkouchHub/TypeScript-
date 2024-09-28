@@ -7,4 +7,3 @@ all = 9;
 let allVars = false;
 allVars = 9;
 allVars = "string";
-//# sourceMappingURL=dataTypes.js.map
