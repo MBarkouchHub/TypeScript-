@@ -1,13 +1,13 @@
 
 
-interface User{
+interface User1{
     id : number,
     userName : string,
     country : string,
     toString() : string
 }
 
-let user : User = {
+let user : User1 = {
     id : 101,
     userName : 'M.BARKOUCH',
     country : 'MAR',
@@ -49,7 +49,7 @@ console.log('\n')
 
 // interface extends
 
-interface Member extends User, Theme{
+interface Member extends User1, Theme{
     email : string
 }
 
